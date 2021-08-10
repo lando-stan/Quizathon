@@ -14,7 +14,7 @@
   <body>
     <header>
       <button class="topscore-button">Top Score!</button>
-      <p id="clock">Time Remainding : 120 secs</p>
+      <p>Time Remaining: <span id="clock">120 seconds</span></p>
     </header>
     <div class="jumbotron">
       <h1 class="display-4">Start Quizathon</h1>
@@ -25,7 +25,14 @@
       <hr class="my-4" />
       <p>Good luck!!</p>
       <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <button
+          class="btn btn-primary btn-lg"
+          id="start-btn"
+          href="#"
+          role="button"
+        >
+          Start
+        </button>
       </p>
     </div>
     <script src="script.js"></script>
