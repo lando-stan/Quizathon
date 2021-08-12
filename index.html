@@ -13,28 +13,53 @@
   </head>
   <body>
     <header>
-      <button class="topscore-button">Top Score!</button>
+      <button id="topscore-button">Top Score!</button>
       <p>Time Remaining: <span id="clock">120 seconds</span></p>
     </header>
+
     <div class="jumbotron">
-      <h1 class="display-4">Start Quizathon</h1>
-      <p class="lead">
-        This is a simple Quiz coving the previous unit, in a simple
-        jumbotron-style component.
-      </p>
-      <hr class="my-4" />
-      <p>Good luck!!</p>
-      <p class="lead">
-        <button
-          class="btn btn-primary btn-lg"
-          id="start-btn"
-          href="#"
-          role="button"
-        >
-          Start
-        </button>
-      </p>
+      <main id="start_text">
+        <h1 class="display-4">Start Quizathon</h1>
+        <p class="lead">
+          This is a simple Quiz covering the previous unit, in a simple
+          jumbotron-style component.
+        </p>
+        <hr class="my-4" />
+        <p>Good luck!!</p>
+        <p class="lead">
+          <button
+            class="btn btn-primary btn-lg"
+            id="start-btn"
+            href="#"
+            role="button"
+          >
+            Start
+          </button>
+        </p>
+      </main>
+
+      <section class="quiz" style="display: none">
+        <h2 id="question1">Lorem ipsum dolor ........</h2>
+        <ol>
+          <li><button id="btn-1">test</button></li>
+          <li><button id="btn-2">test</button></li>
+          <li><button id="btn-3">test</button></li>
+        </ol>
+        <h3 id="question2">Lorem ipsum dolor ........</h2>
+        <ol>
+          <li><button id="btn-1">test</button></li>
+          <li><button id="btn-2">test</button></li>
+          <li><button id="btn-3">test</button></li>
+        </ol>
+        <h2 id="question3">Lorem ipsum dolor ........</h2>
+        <ol>
+          <li><button id="btn-1">test</button></li>
+          <li><button id="btn-2">test</button></li>
+          <li><button id="btn-3">test</button></li>
+        </ol>
+      </section>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
